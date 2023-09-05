@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div>
-      <h2>한줄댓글(7)</h2>
+      <h2>한줄댓글{data.length}</h2>
       <Write setData={setData}/>
 
       <ul>
